@@ -24,7 +24,7 @@ search.addEventListener("click", () => {
         if (isDesktop) {
           container.style.height = "400px";
         } else {
-          container.style.height = "310px";
+          container.style.height = "350px";
         }
 
         weatherBox.classList.remove("active");
@@ -36,7 +36,7 @@ search.addEventListener("click", () => {
         if (isDesktop) {
           container.style.height = "555px";
         } else {
-          container.style.height = "400px";
+          container.style.height = "450px";
         }
       }
       const image = document.querySelector(".weather-box img");
